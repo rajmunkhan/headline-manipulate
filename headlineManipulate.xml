@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<extension type="plugin" group="content" method="upgrade">
+	<name>Content - Headline Manipulate</name>
+	<author>Rajmun</author>
+	<creationDate>April 2022</creationDate>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>3.0.0</version>
+	<description>You can manipulate the headlines of your content</description>
+	<files>
+		<filename plugin="headlineManipulate">headlineManipulate.php</filename>
+	</files>
+    <config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="headline" type="textarea" default="default" label="Enter some Headline" description="" rows="10" cols="5" filter="raw"/>
+			
+			</fieldset>
+		</fields>
+	</config>
+</extension>
